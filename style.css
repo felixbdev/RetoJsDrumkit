@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.727),rgba(18, 17, 17, 0.844)),url(/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.keys{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+}
+
+.key{
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    border: 2px solid #000;
+    width: 60px;
+    height: 60px;
+    justify-content: space-around ;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.activate{
+    border: 2px solid yellow;
+    transform: scale(1.1);
+
+}
+
